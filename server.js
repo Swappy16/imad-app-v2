@@ -22,7 +22,7 @@ app.get('/article-one', function(req,res){
     res.sendFile(__dirname,'ui','article-one.html');
 });
 
-app.get('/article-one',function(req,res){
+app.get('/article-two',function(req,res){
     res.sendFile(path.join(__dirname,'ui','article-two.html'));
 });
 
