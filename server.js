@@ -13,8 +13,6 @@ var ArticleOne={
                 </p>`
 };
 
-
-
 var app = express();
 app.use(morgan('combined'));
 
